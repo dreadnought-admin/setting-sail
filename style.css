@@ -1,4 +1,4 @@
-@import url('https://fonts.google.com/specimen/Bebas+Neue?category=Display,Handwriting', 'https://fonts.google.com/specimen/Permanent+Marker?category=Display,Handwriting');
+@import url('https://fonts.google.com/specimen/Bebas+Neue?category=Display,Handwriting', 'https://fonts.google.com/specimen/Permanent+Marker?category=Display,Handwriting', 'https://fonts.google.com/specimen/Caveat?category=Handwriting');
 
 body {
     background-color: #d6f4f4e8;
@@ -12,17 +12,27 @@ body {
 
 h1, h2 {
     font-family: 'Bebas Neue';
+    font-size: 50px;
     text-align: center;
     text-shadow: 2px 2px #000000;
-    color: white;
+    color: #f0aa89;
 
 }
 
 h3 {
     font-family: 'Permanent Marker';
+    font-size: 20px;
     text-align: center;
     text-shadow: 2px 1px #000000;
-    color: white;
+    color: whitesmoke;
+}
+
+p {
+    font-family: 'Caveat';
+    font-size: 25px;
+    text-align: center;
+    text-shadow: 1px 1px #000000;
+    color: #f0aa89;
 }
 
 #dom {
@@ -32,7 +42,7 @@ h3 {
     border: thick double #463e4e3f
 }
 
-#tankheadLogo {
+#domselfie {
     align-content: center;
     width: 100%;
     border: thick double #463e4e3f
