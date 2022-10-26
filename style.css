@@ -21,7 +21,7 @@ h1, h2 {
 
 h3 {
     font-family: 'Permanent Marker';
-    font-size: 20px;
+    font-size: 30px;
     text-align: center;
     text-shadow: 2px 1px #000000;
     color: whitesmoke;
@@ -87,10 +87,16 @@ div.muayThaiPics {
     width: 100%;
 }
 
+#mtFight {
+    align-content: center;
+    width: 100%;
+}
+
 div.embarrassingPhoto {
     position: relative;
     width: 600px;
     margin: auto;
+    border: thick double #463e4e3f
 
 }
 #spongebob {
@@ -122,6 +128,7 @@ ul li a {
     color: #f0aa89;
     text-shadow: 1px 1px #000000;
     padding: 5px;
+    
 }
 
 .home {
