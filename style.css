@@ -1,3 +1,79 @@
+@import url('https://fonts.google.com/specimen/Bebas+Neue?category=Display,Handwriting', 'https://fonts.google.com/specimen/Permanent+Marker?category=Display,Handwriting');
+
 body {
-    background: #29232e
+    background-color: #d6f4f4e8;
 }
+
+.container {
+    position: relative;
+    width: 500px;
+    margin: auto;
+}
+
+h1, h2 {
+    font-family: 'Bebas Neue';
+    text-align: center;
+    text-shadow: 2px 2px #000000;
+    color: white;
+
+}
+
+h3 {
+    font-family: 'Permanent Marker';
+    text-align: center;
+    text-shadow: 2px 1px #000000;
+    color: white;
+}
+
+#dom {
+    align-content: center;
+    width: 100%;
+    padding-bottom: 5px;
+    border: thick double #463e4e3f
+}
+
+#tankheadLogo {
+    align-content: center;
+    width: 100%;
+    border: thick double #463e4e3f
+}
+
+ul > li {
+    list-style: none;
+}
+
+ul li a {
+    float: right;
+    color: white;
+    padding: 10px;
+}
+
+.navbar {
+    width: 200px; /* Set a width if you like */
+    float: right;
+    margin: auto;
+  }
+  
+  .navbar a {
+    background-color: #eee; /* Grey background color */
+    color: black; /* Black text color */
+    display: block; /* Make the links appear below each other */
+    padding: 12px; /* Add some padding */
+    text-decoration: none; /* Remove underline from links */
+  }
+  
+  .navbar a:hover {
+    background-color: #ccc; /* Dark grey background on mouse-over */
+  }
+  
+  .navbar a.active {
+    background-color: #04AA6D; /* Add a green color to the "active/current" link */
+    color: white;
+
+/* .navbar {
+    background-color: #fbf2f23f
+    float: right;
+    border: thick double #463e4e3f;
+    margin: right;
+    max-height: 300px;
+} */
