@@ -48,6 +48,30 @@ p {
     border: thick double #463e4e3f
 }
 
+div.muayThaiPics {
+    position: relative;
+    width: 500px;
+    margin: auto;
+    border: thick double #463e4e3f
+}
+
+#tankheadLogo {
+    align-content: center;
+    width: 100%;
+}
+
+#domKicking {
+    align-content: center;
+    width: 100%;
+}
+
+p > ul {
+    color:#f0aa89
+    text-shadow: 2px 2px #000000;
+    padding: 10px;
+    font-family: 'Caveat'
+}
+
 ul > li {
     list-style: none;
 }
@@ -58,6 +82,28 @@ ul li a {
     padding: 10px;
 }
 
+#injuries > li {
+    font-family: 'Caveat';
+    font-size: 20px;
+    text-align: center;
+    color: #f0aa89;
+    text-shadow: 1px 1px #000000;
+    padding: 5px;
+}
+
+.home {
+    width: 100px;
+    float: left;
+}
+
+.home a {
+    background-color: #eee;
+    color: #f0aa89;
+    display: block;
+    padding: 12px;
+    text-decoration: none;
+    font-family: 'Bebas Neue';
+}
 .navbar {
     width: 200px; /* Set a width if you like */
     float: right;
@@ -66,10 +112,11 @@ ul li a {
   
   .navbar a {
     background-color: #eee; /* Grey background color */
-    color: black; /* Black text color */
+    color: #f0aa89; /* Black text color */
     display: block; /* Make the links appear below each other */
     padding: 12px; /* Add some padding */
     text-decoration: none; /* Remove underline from links */
+    font-family: 'Bebas Neue';
   }
   
   .navbar a:hover {
