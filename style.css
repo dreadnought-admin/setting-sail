@@ -48,6 +48,28 @@ p {
     border: thick double #463e4e3f
 }
 
+.favoritePics {
+    position: relative;
+    width: 500px;
+    margin: auto;
+    border: thick double #463e4e3f
+}
+
+#weights {
+    align-content: right;
+    width: 100%;
+}
+
+#typeO {
+    align-content: center;
+    width: 100%;
+}
+
+#muayThai {
+    align-content: left;
+    width: 100%;
+}
+
 div.muayThaiPics {
     position: relative;
     width: 500px;
@@ -63,6 +85,17 @@ div.muayThaiPics {
 #domKicking {
     align-content: center;
     width: 100%;
+}
+
+div.embarrassingPhoto {
+    position: relative;
+    width: 600px;
+    margin: auto;
+
+}
+#spongebob {
+    align-content: center;
+    width: 100%
 }
 
 p > ul {
